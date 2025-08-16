@@ -11,10 +11,9 @@ from shapely.geometry import Point
 # ─────────────────────────────
 st.set_page_config(page_title="Bengaluru Solar — Phase 7", layout="wide")
 st.title("Bengaluru Solar — Suitability & Home Check")
-st.caption("Data: Phase 6 model-based suitability (suitability_solar_geo.parquet).")
 
 # File paths
-GEO_PARQUET  = "/Users/jaidevreddy/Documents/Documents - Jaidev’s MacBook Pro/projects/blr-renewables/data/processed/suitability_solar_geo.parquet"   # must contain: ZoneID, score_0_100, annual_kwh, geometry
+GEO_PARQUET  = "data/processed/suitability_solar_geo.parquet"   # must contain: ZoneID, score_0_100, annual_kwh, geometry
 CITY_CENTER  = (12.9716, 77.5946)
 
 # ─────────────────────────────
