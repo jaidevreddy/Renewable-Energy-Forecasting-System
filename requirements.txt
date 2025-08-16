@@ -1,0 +1,9 @@
+streamlit
+geopandas
+pydeck
+pandas
+shapely
+xgboost
+scikit-learn
+pyarrow
+
