@@ -1,0 +1,22 @@
+[
+  "year",
+  "month",
+  "doy",
+  "dow",
+  "is_weekend",
+  "roll7_mean",
+  "roll7_std",
+  "roll7_z",
+  "roll30_mean",
+  "clim_month_kwh",
+  "anom_month_kwh",
+  "y_lag1",
+  "y_lag7",
+  "y_lag14",
+  "y_mean_7d",
+  "y_std_7d",
+  "y_min_7d",
+  "y_max_7d",
+  "sin_doy",
+  "cos_doy"
+]
